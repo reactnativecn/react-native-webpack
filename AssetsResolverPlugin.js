@@ -118,7 +118,6 @@ module.exports = class AssetsResolver extends Tapable {
   apply(compiler) {
     compiler.resolvers.normal.plugin('file', function(request, callback) {
       if (/\.png$|\.jpg$|\.gif$/.test(request.request)) {
-        console.log(request);
         const filePath = request.request;
 
         callback(null, {
@@ -138,7 +137,6 @@ module.exports = class AssetsResolver extends Tapable {
             if(!resolver) return callback();
             resolver(data, function onDoneResolving(err, data) {
               if (err) return callback(err);
-              console.log(data);
               callback(null, new AssetsModule(data));
             });
             return;
