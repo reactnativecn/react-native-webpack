@@ -1,0 +1,28 @@
+{
+  "name": "react-native-webpack",
+  "version": "0.1.0",
+  "description": "Use webpack to bundle react-native application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactnativecn/react-native-webpack.git"
+  },
+  "keywords": [
+    "react-native",
+    "webpack",
+    "bundle"
+  ],
+  "author": "tdzl2003",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactnativecn/react-native-webpack/issues"
+  },
+  "peerDependencies": {
+    "react-native": ">0.18",
+    "webpack": "*"
+  },
+  "homepage": "https://github.com/reactnativecn/react-native-webpack#readme"
+}
