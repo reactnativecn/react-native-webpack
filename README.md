@@ -51,7 +51,7 @@ module.exports = {
 Install dependencies: 
 
 ```bash
-npm install babel-loader babel-presets-react-native babel-plugin-syntax-trailing-function-commas babel-plugin-transform-flow-strip-types --save
+npm install babel-loader babel-preset-react-native babel-plugin-syntax-trailing-function-commas babel-plugin-transform-flow-strip-types --save
 ```
 
 You can configure babel-loader via query like:  
